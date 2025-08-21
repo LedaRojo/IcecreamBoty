@@ -1,0 +1,9 @@
+{
+  "platform": {
+    "apiRuntime": "python"
+  },
+  "build": {
+    "appBuildCommand": "pip install -r requirements.txt",
+    "outputLocation": "/"
+  }
+}
