@@ -5,5 +5,11 @@
   "build": {
     "appBuildCommand": "pip install -r requirements.txt",
     "outputLocation": "/"
-  }
+  },
+  "routes": [
+    {
+      "route": "/*",
+      "serve": "/index.html"
+    }
+  ]
 }
